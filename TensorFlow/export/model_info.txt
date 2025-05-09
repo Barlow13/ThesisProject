@@ -1,0 +1,25 @@
+Model Name: MobileNetV2
+Input Shape: 64x64x3
+Classes: person, dog, cat
+Model Size: 668.30 KB
+
+=== Class Detection Thresholds ===
+person: 0.3579
+dog: 0.2474
+cat: 0.3211
+
+=== Training Configuration ===
+Training Dataset: 11070 samples
+Test Dataset: 2692 samples
+Batch Size: 32
+Initial Learning Rate: 0.001
+Frozen Epochs: 16
+Fine-tune Epochs: 256
+
+=== Thresholds C Array ===
+const float thresholds[NUM_CLASSES] = {0.3579f, 0.2474f, 0.3211f};
+
+=== Final Test Set Performance ===
+F1 Score: 0.4950
+Precision: 0.4695
+Recall: 0.5999

@@ -1,0 +1,10 @@
+              precision    recall  f1-score   support
+
+      person       0.79      0.97      0.87      2010
+         dog       0.15      0.50      0.23       177
+         cat       0.47      0.33      0.38       184
+
+   micro avg       0.66      0.89      0.75      2371
+   macro avg       0.47      0.60      0.49      2371
+weighted avg       0.72      0.89      0.79      2371
+ samples avg       0.69      0.76      0.71      2371
